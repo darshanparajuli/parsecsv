@@ -1,0 +1,17 @@
+[package]
+name = "parsecsv-proc-macro"
+version = "0.1.0"
+authors = ["Darshan Parajuli <parajulidarshan@gmail.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "1.0.9"
+proc-macro2 = "1.0.26"
+syn = { version = "1.0.69", features = ["extra-traits"] }
+
+

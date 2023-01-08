@@ -1,0 +1,8 @@
+[package]
+name = "parsecsv"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+parsecsv-proc-macro = { path = "parsecsv-proc-macro" }
+parsecsv-serializer = { path = "parsecsv-serializer" }
