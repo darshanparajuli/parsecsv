@@ -2,5 +2,9 @@
 
 Simple proc macro for serializing data to CSV.
 
-(For educational purposes only.)
+See it in action by running the example via:
+```sh
+cargo run --example example
+```
 
+(For educational purposes only.)
